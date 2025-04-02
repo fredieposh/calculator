@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'digital';
+    src: url('technology.regular.ttf');
+}
+
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
@@ -22,6 +27,11 @@ body {
 }
 
 #screen {
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    font-size: 4em;
+    font-family: 'digital';
     box-sizing: border-box;
     background-color: grey;
     margin: 5% 5%;
