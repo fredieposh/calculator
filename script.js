@@ -27,4 +27,25 @@ function operate(num1, num2, operator){
     }
 }
 
+const calculatorButtons = document.querySelectorAll(".calc-button");
+
+calculatorButtons.forEach(button => button.addEventListener("mousedown", (e) => {
+    e.target.style.backgroundColor = "White";
+    console.log(e.target);
+   }));
+
+calculatorButtons.forEach(button => button.addEventListener("mouseup", (e) => {
+    e.target.removeAttribute("style");
+    console.log(e.target);
+   }));
+
+calculatorButtons.forEach(button => button.addEventListener("mouseout", (e) => {
+    if(e.target.hasAttribute("style")) {
+        e.target.removeAttribute("style");
+    }
+    console.log(e.target);
+   }));
+
+
+
 let num1, num2, operator;
