@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     display: flex;
     height: 80vh;
-    width: 35vw;
+    width: 80vw;
     border: solid;
     /* flex: 1; */
 }
