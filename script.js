@@ -85,7 +85,7 @@ calculatorButtons.forEach(button => button.addEventListener("mousedown", (e) => 
                 document.querySelector("#screen").textContent = num1;
             }
         }
-        if ("+/X=".includes(e.target.textContent)) {
+        if ("+/X-=".includes(e.target.textContent)) {
             if (checkIfUndefined(num1) && checkIfUndefined(num2)) {
                 num1 = 0;
                 if (e.target.textContent !== "=") operator = e.target.textContent;
