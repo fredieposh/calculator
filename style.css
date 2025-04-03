@@ -9,7 +9,7 @@ body {
     height: 90vh;
     width: auto;
     /* border: solid; */
-    display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
 }
@@ -19,7 +19,7 @@ body {
     border-radius: 3%;
     background-color: black;
     flex-direction: column;
-    display: flex;
+    display: -webkit-flex;
     height: 80vh;
     width: 80vw;
     border: solid;
@@ -27,7 +27,7 @@ body {
 }
 
 #screen {
-    display: flex;
+    display: -webkit-flex;
     justify-content:end;
     align-items: center;
     font-size: 4em;
@@ -42,7 +42,7 @@ body {
 
 #buttons {
     box-sizing: border-box;
-    display: flex;
+    display: -webkit-flex;
     margin: 1% 5% 5% 5%;
     height: 45%;
     /* border: solid; */
@@ -50,7 +50,7 @@ body {
 }
 
 #left-buttons {
-    display: flex;
+    display: -webkit-flex;
     border-radius: 3%;
     background-color: grey;
     flex-direction: column;
@@ -63,7 +63,7 @@ body {
 }
 
 #center-buttons {
-    display: flex;
+    display: -webkit-flex;
     border-radius: 4%;
     background-color: grey;
     flex-direction: column;
@@ -78,7 +78,7 @@ body {
 }
 
 #right-buttons {
-    display: flex;
+    display: -webkit-flex;
     border-radius: 4%;
     background-color: orange;
     flex-direction: column;
@@ -92,7 +92,7 @@ body {
 }
 
 .buttons-container {
-    display: flex;
+    display: -webkit-flex;
     border-radius: 4%;
     box-sizing: border-box;
     /* margin: 1% 5% 5% 5%; */
@@ -102,7 +102,7 @@ body {
 }
 
 .buttons-container.right {
-    display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     color: white;
@@ -116,7 +116,7 @@ body {
 }
 
 .buttons-container-right-up {
-    display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     border-radius: 4%;
     box-sizing: border-box;
@@ -127,7 +127,7 @@ body {
 }
 
 .buttons-container-right-down {
-    display: flex;
+    display: -webkit-flex;
     border-radius: 4%;
     box-sizing: border-box;
     color: white;
@@ -140,7 +140,7 @@ body {
 }
 
 .buttons-container-center{
-    display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     color: white;
@@ -154,7 +154,7 @@ body {
 }
 
 .left-button {
-    display: flex;
+    display: -webkit-flex;
     color: white;
     border-radius: 4%;
     justify-content: center;
@@ -168,7 +168,7 @@ body {
 }
 
 .right-button {
-    display: flex;
+    display: -webkit-flex;
     color: white;
     border-radius: 4%;
     justify-content: center;
@@ -181,7 +181,7 @@ body {
 }
 
 .bottom-button {
-    display: flex;
+    display: -webkit-flex;
     color: white;
     border-radius: 4%;
     justify-content: center;
@@ -194,7 +194,7 @@ body {
 }
 
 .bottom-button.right {
-    display: flex;
+    display: -webkit-flex;
     flex: 1;
 }
 
