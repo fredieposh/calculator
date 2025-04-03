@@ -20,8 +20,8 @@ body {
     background-color: black;
     flex-direction: column;
     display: flex;
-    height: 80%;
-    width: 35%;
+    height: 80vh;
+    width: 35vw;
     border: solid;
     /* flex: 1; */
 }
